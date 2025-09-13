@@ -1,70 +1,51 @@
-# Getting Started with Create React App
+# Job Marketplace (Next.js + Ant Design + Node/Express)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Full-stack demo of a contracts/jobs auction marketplace.
 
-## Available Scripts
+## Features
 
-In the project directory, you can run:
+- Home: 10 newest jobs and top 10 most active open jobs
+- New Job: post a job with description, requirements, poster name/contact, expiration
+- Job Detail: see details, countdown/time remaining, lowest bid, bids count, and place bids
+- Backend auto-closes expired jobs and marks the lowest bid as winner
 
-### `npm start`
+## Run locally
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Option A — one command (starts backend and Next.js together):
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+```cmd
+cd /d f:\ReactProjects\CronbayTask\marketplace-app
+npm install
+npm run dev:all
+```
 
-### `npm test`
+Option B — separate terminals:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Backend
 
-### `npm run build`
+```cmd
+cd /d f:\ReactProjects\CronbayTask\marketplace-app\server
+npm install
+npm start
+```
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Frontend (Next.js)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+```cmd
+cd /d f:\ReactProjects\CronbayTask\marketplace-app
+npm install
+npm run dev
+```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+The frontend proxies `/api/*` to `http://localhost:5000` via `next.config.js` rewrites.
 
-### `npm run eject`
+## API quick reference
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+- POST `/api/jobs` – create job { title?, description, requirements, posterName, posterContact, expiresAt }
+- GET `/api/jobs?sort=publishedAt:desc&limit=10` – list jobs with stats
+- GET `/api/jobs/active?limit=10` – list most active open jobs
+- GET `/api/jobs/:id` – get single job with stats
+- GET `/api/jobs/:id/bids` – list bids sorted by amount/time
+- POST `/api/jobs/:id/bids` – place bid { amount }
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Data is stored in `server/db.json` using lowdb for simplicity.

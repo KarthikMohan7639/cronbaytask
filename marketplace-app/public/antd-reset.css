@@ -1,0 +1,2 @@
+/* Expose Ant Design reset via public to load within client boundary */
+@import url("https://unpkg.com/antd@5/dist/reset.css");

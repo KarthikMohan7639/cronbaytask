@@ -1,0 +1,12 @@
+.logo {
+  float: left;
+  margin-right: 24px;
+}
+
+.ant-layout-header .ant-menu {
+  line-height: 64px;
+}
+
+body {
+  margin: 0;
+}

@@ -1,0 +1,190 @@
+{
+  "jobs": [
+    {
+      "id": "jWmS5CGaZ_2jdz6slKPiw",
+      "title": "Junior Software Developer",
+      "description": "To develop custom functionality, information dashboards and reports to\nsupport business requirements.",
+      "requirements": "1+ years of experience in software development or operations engineering.\nWorking knowledge of databases, SQL, and Ruby on Rails.\nB.S. in Computer Science or related engineering field.\nExcellent communication skills.\nDetail-oriented and quality-focused approach.\nCollaborative team player.\nBonus: Experience in SDLC projects, Operations, or Quality Assurance.",
+      "posterName": "John Joe",
+      "posterContact": "6383476453",
+      "publishedAt": "2025-09-13T09:49:54.493Z",
+      "expiresAt": "2025-09-21T06:30:00.000Z",
+      "status": "open"
+    },
+    {
+      "id": "6Lc152Lr9jm4tX_BJr8Sw",
+      "title": "Test Job",
+      "description": "A short test job",
+      "requirements": "Do something quick",
+      "posterName": "Tester",
+      "posterContact": "tester@example.com",
+      "publishedAt": "2025-09-13T10:01:13.258Z",
+      "expiresAt": "2025-09-13T10:01:25.099Z",
+      "status": "closed",
+      "winnerBidId": "t1SmNAPrrQaTQ9ngvsODe"
+    },
+    {
+      "id": "gMyQ8uNctH_a_NvTeJx7_",
+      "title": "Test Job",
+      "description": "A short test job",
+      "requirements": "Do something quick",
+      "posterName": "Tester",
+      "posterContact": "tester@example.com",
+      "publishedAt": "2025-09-13T10:02:09.248Z",
+      "expiresAt": "2025-09-13T10:02:21.215Z",
+      "status": "closed",
+      "winnerBidId": "u9R71nzQyWRUd7yprCigt"
+    },
+    {
+      "id": "RiEjRkmy_uGXVx8ZiMjFL",
+      "title": "Test Job",
+      "description": "A short test job",
+      "requirements": "Do something quick",
+      "posterName": "Tester",
+      "posterContact": "tester@example.com",
+      "publishedAt": "2025-09-13T10:03:14.007Z",
+      "expiresAt": "2025-09-13T10:03:23.991Z",
+      "status": "closed",
+      "winnerBidId": "RipoljUGEzvlYYqKtP57M"
+    },
+    {
+      "id": "nCDKcgoFo2pcyaqd9xUNl",
+      "title": "Test Job",
+      "description": "A short test job",
+      "requirements": "Do something quick",
+      "posterName": "Tester",
+      "posterContact": "tester@example.com",
+      "publishedAt": "2025-09-13T10:31:38.167Z",
+      "expiresAt": "2025-09-13T10:31:48.087Z",
+      "status": "closed",
+      "winnerBidId": "QiyeRH8Yp5u88PO1xnF3u"
+    },
+    {
+      "id": "54aad4Bmo3PkCYc8Cj__-",
+      "title": "Test Job",
+      "description": "A short test job",
+      "requirements": "Do something quick",
+      "posterName": "Tester",
+      "posterContact": "tester@example.com",
+      "publishedAt": "2025-09-13T10:31:59.974Z",
+      "expiresAt": "2025-09-13T10:32:09.953Z",
+      "status": "closed",
+      "winnerBidId": "jpZZ2Q9IE-_O5PiScQryI"
+    },
+    {
+      "id": "JrzrnJaU2ttvGNyTC02nG",
+      "title": "Test Job",
+      "description": "A short test job",
+      "requirements": "Do something quick",
+      "posterName": "Tester",
+      "posterContact": "tester@example.com",
+      "publishedAt": "2025-09-13T10:33:55.819Z",
+      "expiresAt": "2025-09-13T10:34:05.785Z",
+      "status": "closed",
+      "winnerBidId": "ErShFWEMPjju-0eRIZCMv"
+    },
+    {
+      "id": "fWmV3Wu1VxfZ2wIb6FAB1",
+      "title": "Test Job",
+      "description": "A short test job",
+      "requirements": "Do something quick",
+      "posterName": "Tester",
+      "posterContact": "tester@example.com",
+      "publishedAt": "2025-09-13T11:04:18.807Z",
+      "expiresAt": "2025-09-13T11:04:28.595Z",
+      "status": "open"
+    }
+  ],
+  "bids": [
+    {
+      "id": "FRFUC5aMb8WeQ6tvVsP1Y",
+      "jobId": "jWmS5CGaZ_2jdz6slKPiw",
+      "amount": 100,
+      "createdAt": "2025-09-13T09:50:30.788Z"
+    },
+    {
+      "id": "ZsB0f4Fni7jK7FZ8fyMMu",
+      "jobId": "6Lc152Lr9jm4tX_BJr8Sw",
+      "amount": 100,
+      "createdAt": "2025-09-13T10:01:13.271Z"
+    },
+    {
+      "id": "t1SmNAPrrQaTQ9ngvsODe",
+      "jobId": "6Lc152Lr9jm4tX_BJr8Sw",
+      "amount": 90,
+      "createdAt": "2025-09-13T10:01:13.279Z"
+    },
+    {
+      "id": "c3l-KwmT4FNx8YPomqJkC",
+      "jobId": "gMyQ8uNctH_a_NvTeJx7_",
+      "amount": 100,
+      "createdAt": "2025-09-13T10:02:09.262Z"
+    },
+    {
+      "id": "u9R71nzQyWRUd7yprCigt",
+      "jobId": "gMyQ8uNctH_a_NvTeJx7_",
+      "amount": 90,
+      "createdAt": "2025-09-13T10:02:09.270Z"
+    },
+    {
+      "id": "wLLMUk1tSXbi7ryAJ1ub6",
+      "jobId": "RiEjRkmy_uGXVx8ZiMjFL",
+      "amount": 100,
+      "createdAt": "2025-09-13T10:03:14.025Z"
+    },
+    {
+      "id": "RipoljUGEzvlYYqKtP57M",
+      "jobId": "RiEjRkmy_uGXVx8ZiMjFL",
+      "amount": 90,
+      "createdAt": "2025-09-13T10:03:14.032Z"
+    },
+    {
+      "id": "lM2XeUmZXTHo9Ts4i6jON",
+      "jobId": "nCDKcgoFo2pcyaqd9xUNl",
+      "amount": 100,
+      "createdAt": "2025-09-13T10:31:38.179Z"
+    },
+    {
+      "id": "QiyeRH8Yp5u88PO1xnF3u",
+      "jobId": "nCDKcgoFo2pcyaqd9xUNl",
+      "amount": 90,
+      "createdAt": "2025-09-13T10:31:38.186Z"
+    },
+    {
+      "id": "hqogxzCl04CIVxEL6NsuA",
+      "jobId": "54aad4Bmo3PkCYc8Cj__-",
+      "amount": 100,
+      "createdAt": "2025-09-13T10:31:59.992Z"
+    },
+    {
+      "id": "jpZZ2Q9IE-_O5PiScQryI",
+      "jobId": "54aad4Bmo3PkCYc8Cj__-",
+      "amount": 90,
+      "createdAt": "2025-09-13T10:32:00.001Z"
+    },
+    {
+      "id": "GKXx643bav233vMo2O-lS",
+      "jobId": "JrzrnJaU2ttvGNyTC02nG",
+      "amount": 100,
+      "createdAt": "2025-09-13T10:33:55.838Z"
+    },
+    {
+      "id": "ErShFWEMPjju-0eRIZCMv",
+      "jobId": "JrzrnJaU2ttvGNyTC02nG",
+      "amount": 90,
+      "createdAt": "2025-09-13T10:33:55.850Z"
+    },
+    {
+      "id": "GHHiz5j30g9Z7ODL-6NwP",
+      "jobId": "fWmV3Wu1VxfZ2wIb6FAB1",
+      "amount": 100,
+      "createdAt": "2025-09-13T11:04:18.824Z"
+    },
+    {
+      "id": "xjXg5EjNSllHD8Mx9Onhb",
+      "jobId": "fWmV3Wu1VxfZ2wIb6FAB1",
+      "amount": 90,
+      "createdAt": "2025-09-13T11:04:18.833Z"
+    }
+  ]
+}

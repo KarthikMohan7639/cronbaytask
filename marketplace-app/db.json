@@ -1,0 +1,23 @@
+{
+  "jobs": [
+    {
+      "id": "QR437fwMk95sCTbhWDM0y",
+      "title": "dummy",
+      "description": "dummy",
+      "requirements": "dummy",
+      "posterName": "John Joe",
+      "posterContact": "dummy@dummy.com",
+      "publishedAt": "2025-09-13T11:04:39.260Z",
+      "expiresAt": "2025-09-15T11:03:51.862Z",
+      "status": "open"
+    }
+  ],
+  "bids": [
+    {
+      "id": "HQqy8l-AcPlLF2wsKx-Z7",
+      "jobId": "QR437fwMk95sCTbhWDM0y",
+      "amount": 100,
+      "createdAt": "2025-09-13T11:05:12.808Z"
+    }
+  ]
+}
